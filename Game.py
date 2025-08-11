@@ -1,6 +1,7 @@
 class Game:
     def __init__(self):
-        pass
+        self.roll = 0
+        self.score = 0
     
     def roll(self, pins):
         pass
