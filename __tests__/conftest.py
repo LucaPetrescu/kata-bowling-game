@@ -2,7 +2,7 @@ import pytest
 
 from Game import Game
 
-@pytest.fixture
+@pytest.fixture(scope="function")
 def game():
     return Game()
 
